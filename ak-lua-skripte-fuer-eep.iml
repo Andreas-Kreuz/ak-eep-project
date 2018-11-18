@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="LUA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/ak-lua-bibliothek-fuer-eep">
+      <sourceFolder url="file://$MODULE_DIR$/ak-lua-bibliothek-fuer-eep/LUA" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ak-lua-bibliothek-fuer-eep/Resourcen/Anlagen/Andreas_Kreuz-Demo-Ampel" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ak-lua-bibliothek-fuer-eep/Resourcen/Anlagen/Andreas_Kreuz-Demo-Testen" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ak-lua-bibliothek-fuer-eep/Resourcen/Anlagen/Andreas_Kreuz-Tutorial-Ampelkreuzung" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ak-lua-bibliothek-fuer-eep/mps/models" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/ak-lua-bibliothek-fuer-eep/modell-pakete" />
+    </content>
+    <orderEntry type="jdk" jdkName="Lua 5.2.4" jdkType="Lua SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

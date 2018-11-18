@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ak-eep-web" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ak-eep-web-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep-grafiken" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ak-privat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/andreas-kreuz.github.io" vcs="Git" />
+  </component>
+</project>
