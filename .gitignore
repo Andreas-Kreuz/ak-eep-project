@@ -8,6 +8,8 @@ ak-privat (private Anlagen).iml
 andreas-kreuz.github.io
 eep-lua-out-dir.txt
 lib
+project_output
+jdk*
 
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
