@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ak-eep-web-server-wit-eep-web.jar" type="JarApplication" factoryName="JAR Application" singleton="true">
+    <option name="JAR_PATH" value="$PROJECT_DIR$/ak-eep-web-server/target/ak-eep-web-server-wit-eep-web.jar" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Clean" run_configuration_type="MavenRunConfiguration" />
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="Copy EEP-Web to public" />
+      </option>
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Ak-EEP-Web-Server (build)" run_configuration_type="MavenRunConfiguration" />
+    </method>
+  </configuration>
+</component>

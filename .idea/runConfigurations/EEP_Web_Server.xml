@@ -9,7 +9,10 @@
       </pattern>
     </extension>
     <method v="2">
-      <option name="Make" enabled="true" />
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Build-Node (ak-eep-web)" run_configuration_type="js.build_tools.npm" />
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="Copy EEP-Web to public" />
+      </option>
     </method>
   </configuration>
 </component>

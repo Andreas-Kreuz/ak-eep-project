@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="EEP-Lua">
+    <output-path>$PROJECT_DIR$/project_output/artifacts/ak-eep-lua</output-path>
+    <root id="root">
+      <element id="file-copy" path="$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep/modell-pakete/Andreas_Kreuz-Die_Moderne.zip" />
+      <element id="file-copy" path="$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep/modell-pakete/Andreas_Kreuz-Gruenberg_Neustadt.zip" />
+      <element id="file-copy" path="$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep/modell-pakete/Installer-AK-Demo-Lua-Testbeispiel.zip" />
+      <element id="file-copy" path="$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep/modell-pakete/Installer-AK-Demoanlage-Ampel-Grundmodelle.zip" />
+      <element id="file-copy" path="$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep/modell-pakete/Installer-AK-Lua-Bibliothek-fuer-EEP.zip" />
+      <element id="file-copy" path="$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep/modell-pakete/Installer-AK-Tutorial-Ampelkreuzung.zip" />
+    </root>
+  </artifact>
+</component>

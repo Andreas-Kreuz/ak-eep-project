@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/ak-eep-web-server/target/classes" />
+    <output-test url="file://$MODULE_DIR$/ak-eep-web-server/target/test-classes" />
     <content url="file://$MODULE_DIR$/ak-eep-web-server">
       <sourceFolder url="file://$MODULE_DIR$/ak-eep-web-server/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/ak-eep-web-server/src" isTestSource="false" />
