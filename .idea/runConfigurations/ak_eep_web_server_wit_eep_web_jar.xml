@@ -5,7 +5,7 @@
     <method v="2">
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="Clean" run_configuration_type="MavenRunConfiguration" />
       <option name="BuildArtifacts" enabled="true">
-        <artifact name="Copy EEP-Web to public" />
+        <artifact name="Copy EEP-Web to EEP-Webserver" />
       </option>
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="Ak-EEP-Web-Server (build)" run_configuration_type="MavenRunConfiguration" />
     </method>

@@ -27,7 +27,7 @@
     <method v="2">
       <option name="MakeProject" enabled="true" />
       <option name="BuildArtifacts" enabled="true">
-        <artifact name="Copy EEP-Web to public" />
+        <artifact name="Copy EEP-Web to EEP-Webserver" />
       </option>
     </method>
   </configuration>
