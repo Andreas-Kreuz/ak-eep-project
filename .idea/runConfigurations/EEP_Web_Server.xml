@@ -2,6 +2,7 @@
   <configuration default="false" name="EEP-Web-Server" type="Application" factoryName="Application" singleton="true">
     <option name="MAIN_CLASS_NAME" value="ak.eep.web.server.Main" />
     <module name="ak-eep-web-server" />
+    <option name="VM_PARAMETERS" value="-cp ak-eep-web-server/target/classes" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="ak.eep.web.server.*" />
