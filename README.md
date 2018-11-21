@@ -39,34 +39,51 @@ IntelliJ benutzt werden (_VCS_ - _Checkout from Version Control_ - _Git_)
 
 * Dieses Projekt klonen:
 
-    ```
-    git clone https://github.com/Andreas-Kreuz/ak-eep-project.git
-    ```
+    `git clone https://github.com/Andreas-Kreuz/ak-eep-project.git`
 
 * In das Verzeichnis wechseln:
 
-    ```
-    cd ak-eep-project
-    ``` 
+    `cd ak-eep-project` 
     
     * EEP-Web
     
-        ```
-        git clone https://github.com/Andreas-Kreuz/ak-eep-web.git
-        ```
+      `git clone https://github.com/Andreas-Kreuz/ak-eep-web.git`
     
     * EEP-Web-Server
     
-        ```
-        git clone https://github.com/Andreas-Kreuz/ak-eep-web-server.git
-        ```
+      `git clone https://github.com/Andreas-Kreuz/ak-eep-web-server.git`
     
     * Lua-Bibliothek für EEP
     
-        ```
-        git clone https://github.com/Andreas-Kreuz/ak-lua-bibliothek-fuer-eep.git
-        ```
+      `git clone https://github.com/Andreas-Kreuz/ak-lua-bibliothek-fuer-eep.git`
 
 ## Projekt öffnen
 
 Nun kann das Verzeichnis ak-eep-project in IntelliJ als Projekt geöffnet werden.
+
+
+
+# EEP-Web Entwicklung
+
+Für die Entwicklung sind die Werkzeuge eine Angular Anwendung notwendig.
+
+1) Lade und installiere die LTS-Version von NodeJS herunter:
+   https://nodejs.org/de/
+
+2) Installiere die notwendigen Pakete für Angular mit der Kommandozeile
+
+   `npm install -g @angular/cli`
+
+3) Lade die aktuelle Version von EEP-Web herunter
+
+    `git clone https://github.com/Andreas-Kreuz/ak-eep-web.git`
+
+4) Starte den EEP-Web-Server
+
+   `java -jar <path-to>/ak-eep-web.jar <path-to-eep>/LUA/ak/io/exchange` 
+
+6) Starte die Web-Anwendung im Entwicklungsmodus
+
+   `ng serve` um den Server zu starten.
+
+   Navigiere zu `http://localhost:4200/`. EEP-Web wird geladen.
