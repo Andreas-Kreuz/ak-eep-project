@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact name="eep-web-server/ak-eep-web.jar to LUA/ak">
+    <output-path>$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep/LUA/ak</output-path>
+    <root id="root">
+      <element id="file-copy" path="$PROJECT_DIR$/ak-eep-web-server/target/ak-eep-web.jar" />
+    </root>
+  </artifact>
+</component>

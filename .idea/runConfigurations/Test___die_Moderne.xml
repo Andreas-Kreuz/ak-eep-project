@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Test - die Moderne" type="lua.app" factoryName="Lua Application" singleton="true">
+    <option name="program" value="C:\Spiele\lua-5.2.4_Win64_bin\lua.exe" />
+    <option name="file" value="ak/anlagen/die-moderne/Die-Moderne-07-test.lua" />
+    <option name="workingDir" value="$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep/LUA" />
+    <option name="debuggerType" value="1" />
+    <option name="params" value="" />
+    <option name="charset" value="UTF-8" />
+    <option name="showConsole" value="true" />
+    <method v="2" />
+  </configuration>
+</component>

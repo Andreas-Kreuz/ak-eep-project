@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Installation - Modelle und Demo-Anlagen" type="lua.app" factoryName="Lua Application" singleton="true">
+    <option name="program" value="C:\Spiele\lua-5.2.4_Win64_bin\lua.exe" />
+    <option name="file" value="ModellInstallation.lua" />
+    <option name="workingDir" value="$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep/LUA" />
+    <option name="debuggerType" value="1" />
+    <option name="params" value="" />
+    <option name="charset" value="UTF-8" />
+    <option name="showConsole" value="true" />
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Clean" run_configuration_type="MavenRunConfiguration" />
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Ak-EEP-Web-Server (build)" run_configuration_type="MavenRunConfiguration" />
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="eep-web-server/ak-eep-web.jar to LUA/ak" />
+      </option>
+    </method>
+  </configuration>
+</component>

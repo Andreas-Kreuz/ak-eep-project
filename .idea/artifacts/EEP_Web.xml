@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact build-on-make="true" name="EEP-Web">
-    <output-path>$PROJECT_DIR$/project_output/artifacts/ak-eep-web</output-path>
-    <root id="root">
-      <element id="dir-copy" path="$PROJECT_DIR$/ak-eep-web/dist" />
-    </root>
-  </artifact>
-</component>
