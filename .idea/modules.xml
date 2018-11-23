@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ak-eep-project.iml" filepath="$PROJECT_DIR$/.idea/ak-eep-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ak-eep-web.iml" filepath="$PROJECT_DIR$/ak-eep-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ak-eep-web-server.iml" filepath="$PROJECT_DIR$/ak-eep-web-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep.iml" filepath="$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep.iml" />
+    </modules>
+  </component>
+</project>

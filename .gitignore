@@ -4,7 +4,6 @@ ak-eep-web-server
 ak-lua-bibliothek-fuer-eep
 ak-lua-bibliothek-fuer-eep-grafiken
 ak-privat
-ak-privat (private Anlagen).iml
 andreas-kreuz.github.io
 eep-lua-out-dir.txt
 lib
@@ -42,8 +41,8 @@ jdk*
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
 # auto-import.
-.idea/modules.xml
-.idea/*.iml
+#.idea/modules.xml
+#.idea/*.iml
 .idea/modules
 
 # CMake
