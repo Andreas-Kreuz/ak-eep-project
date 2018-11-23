@@ -10,9 +10,7 @@
     <method v="2">
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="Clean" run_configuration_type="MavenRunConfiguration" />
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="Ak-EEP-Web-Server (build)" run_configuration_type="MavenRunConfiguration" />
-      <option name="BuildArtifacts" enabled="true">
-        <artifact name="eep-web-server/ak-eep-web.jar to LUA/ak" />
-      </option>
+      <option name="BuildArtifacts" enabled="true" />
     </method>
   </configuration>
 </component>

@@ -5,9 +5,7 @@
     <option name="ALTERNATIVE_JRE_PATH" value="11" />
     <method v="2">
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="Clean" run_configuration_type="MavenRunConfiguration" />
-      <option name="BuildArtifacts" enabled="true">
-        <artifact name="eep-web/dist to eep-web-server/target" />
-      </option>
+      <option name="BuildArtifacts" enabled="true" />
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="Ak-EEP-Web-Server (build)" run_configuration_type="MavenRunConfiguration" />
     </method>
   </configuration>

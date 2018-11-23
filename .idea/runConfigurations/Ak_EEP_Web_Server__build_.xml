@@ -27,9 +27,7 @@
     <method v="2">
       <option name="RunConfigurationTask" enabled="true" run_configuration_name="Build-Node (ak-eep-web)" run_configuration_type="js.build_tools.npm" />
       <option name="MakeProject" enabled="true" />
-      <option name="BuildArtifacts" enabled="true">
-        <artifact name="eep-web/dist to eep-web-server/target" />
-      </option>
+      <option name="BuildArtifacts" enabled="true" />
     </method>
   </configuration>
 </component>
