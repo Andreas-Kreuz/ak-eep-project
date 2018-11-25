@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ExternalDependencies">
     <plugin id="AngularJS" />
-    <plugin id="Lua" />
+    <plugin id="com.tang" />
     <plugin id="org.intellij.plugins.markdown" />
   </component>
 </project>
