@@ -2,16 +2,15 @@
   <configuration default="false" name="EEP-Web-Server" type="Application" factoryName="Application" singleton="true">
     <option name="MAIN_CLASS_NAME" value="ak.eep.web.server.Main" />
     <module name="ak-eep-web-server" />
-    <option name="VM_PARAMETERS" value="-cp ak-eep-web-server/target/classes" />
+    <option name="PROGRAM_PARAMETERS" value="--test" />
     <extension name="coverage">
       <pattern>
-        <option name="PATTERN" value="ak.eep.web.server.*" />
+        <option name="PATTERN" value="ak.eep.web.server.io.*" />
         <option name="ENABLED" value="true" />
       </pattern>
     </extension>
     <method v="2">
-      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Build-Node (ak-eep-web)" run_configuration_type="js.build_tools.npm" />
-      <option name="BuildArtifacts" enabled="true" />
+      <option name="Make" enabled="true" />
     </method>
   </configuration>
 </component>
