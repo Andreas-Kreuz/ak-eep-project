@@ -89,19 +89,13 @@ Für die Entwicklung sind die Werkzeuge für Angular Anwendung notwendig.
    npm install
    ```
 
-3) Lade die aktuelle Version von EEP-Web herunter
-
-   ```bash
-   git clone https://github.com/Andreas-Kreuz/ak-eep-web.git
-   ```
-
-4) Starte den EEP-Web-Server
+3) Starte den EEP-Web-Server
 
    ```bash
    java -jar <path-to>/ak-eep-web.jar <path-to-eep>/LUA/ak/io/exchange
    ```
 
-5) Starte die Web-Anwendung im Entwicklungsmodus
+4) Starte die Web-Anwendung im Entwicklungsmodus
 
    ```bash
    ng serve
