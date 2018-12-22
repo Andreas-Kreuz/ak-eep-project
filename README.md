@@ -57,7 +57,7 @@ _Hinweis_: Statt git clone auf der Kommandozeile (erfordert [git Kommandozeile](
   ```
 
 * Submodule initialisieren und aktualisieren
-  
+
   ```bash
   git submodule init
   ```
@@ -72,7 +72,7 @@ Nun kann das Verzeichnis `ak-eep-projekt` in VS Code oder IntelliJ als Projekt g
 
 # EEP-Web Entwicklung
 
-Für die Entwicklung sind die Werkzeuge eine Angular Anwendung notwendig.
+Für die Entwicklung sind die Werkzeuge für Angular Anwendung notwendig.
 
 1) Lade und installiere die LTS-Version von NodeJS:
    <https://nodejs.org/de/>
