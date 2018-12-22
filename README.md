@@ -37,33 +37,38 @@ Die **Verzeichnisstruktur** zum Entwickeln sollte wie folgt aussehen:
 
 # Entwicklung
 
-## Projekte klonen auf der Kommandozeile
+## Projekt klonen auf der Kommandozeile
 
-_Hinweis_: Statt git clone auf der Kommandozeile (erfordert  kann auch IntelliJ benutzt werden (_VCS_ - _Checkout from Version Control_ - _Git_)
+_Hinweis_: Statt git clone auf der Kommandozeile (erfordert [git Kommandozeile](https://git-scm.com/downloads)) kann auch IntelliJ benutzt werden (_VCS_ - _Checkout from Version Control_ - _Git_)
 
-* Dieses Projekt klonen:
+* Dieses Projekt klonen (wird in ein Unterverzeichnis ak-eep-projekt gespeichert):
 
-    `git clone https://github.com/Andreas-Kreuz/ak-eep-project.git`
+  ```bash
+  cd ein-verzeichnis-deiner-wahl
+  git clone https://github.com/Andreas-Kreuz/ak-eep-project.git
+  ```
+
+## Submodule initialisieren
 
 * In das Verzeichnis wechseln:
 
-    `cd ak-eep-project`
+  ```bash
+  cd ak-eep-project
+  ```
 
-  * EEP-Web
+* Submodule initialisieren und aktualisieren
   
-    `git clone https://github.com/Andreas-Kreuz/ak-eep-web.git`
-  
-  * EEP-Web-Server
-  
-    `git clone https://github.com/Andreas-Kreuz/ak-eep-web-server.git`
-  
-  * Lua-Bibliothek für EEP
-  
-    `git clone https://github.com/Andreas-Kreuz/ak-lua-bibliothek-fuer-eep.git`
+  ```bash
+  git submodule init
+  ```
+
+  ```bash
+  git submodule update
+  ```
 
 ## Projekt öffnen
 
-Nun kann das Verzeichnis ak-eep-project in IntelliJ als Projekt geöffnet werden.
+Nun kann das Verzeichnis `ak-eep-projekt` in VS Code oder IntelliJ als Projekt geöffnet werden.
 
 # EEP-Web Entwicklung
 
@@ -74,18 +79,33 @@ Für die Entwicklung sind die Werkzeuge eine Angular Anwendung notwendig.
 
 2) Installiere die notwendigen Pakete für Angular mit der Kommandozeile
 
-   `npm install -g @angular/cli`
+   Verwende dazu folgende Befehle:
+
+   ```bash
+   cd ak-eep-project\ak-eep-web
+   ```
+
+   ```bash
+   npm install
+   ```
 
 3) Lade die aktuelle Version von EEP-Web herunter
 
-    `git clone https://github.com/Andreas-Kreuz/ak-eep-web.git`
+   ```bash
+   git clone https://github.com/Andreas-Kreuz/ak-eep-web.git
+   ```
 
 4) Starte den EEP-Web-Server
 
-   `java -jar <path-to>/ak-eep-web.jar <path-to-eep>/LUA/ak/io/exchange`
+   ```bash
+   java -jar <path-to>/ak-eep-web.jar <path-to-eep>/LUA/ak/io/exchange
+   ```
 
 5) Starte die Web-Anwendung im Entwicklungsmodus
 
-   `ng serve` um den Server zu starten.
+   ```bash
+   ng serve
+   ```
 
-   Navigiere zu `http://localhost:4200/`. EEP-Web wird geladen.
+   Navigiere zu <http://localhost:4200/>.
+   EEP-Web wird geladen.
