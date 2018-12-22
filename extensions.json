@@ -2,6 +2,7 @@
     "recommendations": [
         "eg2.tslint",
         "rokoroku.vscode-theme-darcula",
-        "github.vscode-pull-request-github"
+        "github.vscode-pull-request-github",
+        "knisterpeter.vscode-github"
     ]
 }
