@@ -1,0 +1,6 @@
+{
+    "html.format.endWithNewline": true,
+    "html.format.maxPreserveNewLines": 2,
+    "html.format.wrapAttributes": "force-aligned",
+    "html.format.wrapLineLength": 40
+}
