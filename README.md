@@ -1,12 +1,12 @@
 <p align="center">
   <a href="http://andreas-kreuz.github.io/ak-lua-bibliothek-fuer-eep">
-    <img src="assets/img/avatar-andreas-kreuz-128.png" alt="" width=72 height=72>
+    <img src="assets/img/eep-web-logo-shadow-72.png" alt="" width=72 height=72>
   </a>
-  <h3 align="center">Projektdateien für IntelliJ</h3>
-  <p>
-    Dieses Repository enthält die notwendigen Dateien für die Entwicklung der EEP-Projekte von Andreas Kreuz.
+  <h3 align="center">Projektdateien für EEP-Web</h3>
+  <p align="center">
+    Dieses Repository enthält die notwendigen Dateien für die Entwicklung von EEP-Web.
   </p>
-  
+<br>
 <hr>
 
 # Beschreibung
@@ -29,7 +29,7 @@ Folgende **Entwicklungswerkzeuge** können verwendet werden:
 * [gitHub Desktop](https://desktop.github.com/)
 
 Die **Verzeichnisstruktur** zum Entwickeln sollte wie folgt aussehen:
-  
+
 * **ak-eep-project** - _Projektdaten für IntelliJ_ (Dieses Projekt)
   * **ak-eep-web** - _Quellcode für EEP-Web_
   * **ak-eep-web-server** - _Quellcode für EEP-Web-Server_
