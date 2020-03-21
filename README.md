@@ -110,7 +110,6 @@ Navigiere zu <http://localhost:4200/>.
 
 EEP-Web wird geladen.
 
-
 # EEP-Web bauen
 
 Benutze das Skript `run-package.cmd` um das Programm zu bauen.
