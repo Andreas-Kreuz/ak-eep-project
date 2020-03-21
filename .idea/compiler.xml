@@ -23,7 +23,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ak-eep-web-server" target="1.11" />
+      <module name="ak-eep-web-server" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
