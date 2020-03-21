@@ -17,9 +17,10 @@ _ak-eep-web_, _ak-eep-web-server_, _ak-lua-bibliothek-fuer-eep_.
 Folgende **Bibliotheken** sind notwendig:
 
 * [Lua 5.2](http://luabinaries.sourceforge.net/download.html) (für Lua-Skripte)
-* [Node.js](https://nodejs.org/en/) (für EEP-Web)
-* [Angular-CLI](https://angular.io/) (für EEP-Web)
+* [Node.js](https://nodejs.org/en/) (für EEP-Web App)
+* [Angular-CLI](https://angular.io/) (für EEP-Web App)
 * [Java 11](https://jdk.java.net/11/) (für EEP-Web-Server)
+* [Maven](https://maven.apache.org) (für EEP-Web-Server)
 
 Folgende **Entwicklungswerkzeuge** können verwendet werden:
 
@@ -70,7 +71,9 @@ _Hinweis_: Statt git clone auf der Kommandozeile (erfordert [git Kommandozeile](
 
 Nun kann das Verzeichnis `ak-eep-projekt` in VS Code oder IntelliJ als Projekt geöffnet werden.
 
-# EEP-Web Entwicklung
+# EEP-Web entwickeln
+
+## Vorbereitung der Entwicklung
 
 Für die Entwicklung sind die Werkzeuge für Angular Anwendung notwendig.
 
@@ -89,17 +92,25 @@ Für die Entwicklung sind die Werkzeuge für Angular Anwendung notwendig.
    npm install
    ```
 
-3) Starte den EEP-Web-Server
+## EEP-Web-Server starten
 
-   ```bash
-   java -jar <path-to>/ak-eep-web.jar <path-to-eep>/LUA/ak/io/exchange
-   ```
+```bash
+java -jar <path-to>/ak-eep-web.jar <path-to-eep>/LUA/ak/io/exchange
+```
 
-4) Starte die Web-Anwendung im Entwicklungsmodus
+## EEP-Web-App im Entwicklungsmodus starten
 
-   ```bash
-   ng serve
-   ```
+Starte die Web-Anwendung im Entwicklungsmodus
 
-   Navigiere zu <http://localhost:4200/>.
-   EEP-Web wird geladen.
+```bash
+ng serve
+```
+
+Navigiere zu <http://localhost:4200/>.
+
+EEP-Web wird geladen.
+
+
+# EEP-Web bauen
+
+Benutze das Skript `run-package.cmd` um das Programm zu bauen.
