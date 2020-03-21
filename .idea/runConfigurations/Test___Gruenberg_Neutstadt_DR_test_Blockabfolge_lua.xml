@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Test - Gruenberg-Neutstadt-DR-test-Blockabfolge.lua" type="lua.app" factoryName="Lua Application" singleton="true">
-    <option name="program" value="C:\Spiele\lua-5.2.4_Win64_bin\lua.exe" />
+    <option name="program" value="C:\dev\lua-5.2.4_Win64_bin\lua.exe" />
     <option name="file" value="ak/anlagen/gruenberg-neustadt/Gruenberg-Neutstadt-DR-test-Blockabfolge.lua" />
     <option name="workingDir" value="$PROJECT_DIR$/ak-lua-bibliothek-fuer-eep/LUA" />
     <option name="debuggerType" value="1" />
