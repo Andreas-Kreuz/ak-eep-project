@@ -37,5 +37,6 @@
         "EEPIsRailTrackReserved",
         "EEPIsTramTrackReserved"
     ],
-    "editor.minimap.maxColumn": 160
+    "editor.minimap.maxColumn": 160,
+    "git-assistant.checkForRemote": "disabled"
 }
