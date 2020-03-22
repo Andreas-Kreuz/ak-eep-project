@@ -9,5 +9,32 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
-    }
+    },
+    "Lua.diagnostics.globals": [
+        "EEPStructureGetSmoke",
+        "EEPStructureGetFire",
+        "EEPStructureGetLight",
+        "EEPGetRollingstockItemsCount",
+        "EEPTime",
+        "EEPTimeH",
+        "EEPTimeM",
+        "EEPTimeS",
+        "EEPVer",
+        "EEPGetSignal",
+        "EEPGetSwitch",
+        "EEPRegisterAuxiliaryTrack",
+        "EEPRegisterControlTrack",
+        "EEPRegisterRoadTrack",
+        "EEPRegisterRailTrack",
+        "EEPRegisterTramTrack",
+        "EEPGetTrainSpeed",
+        "EEPGetTrainRoute",
+        "EEPRollingstockGetCouplingFront",
+        "EEPRollingstockGetCouplingRear",
+        "EEPIsAuxiliaryTrackReserved",
+        "EEPIsControlTrackReserved",
+        "EEPIsRoadTrackReserved",
+        "EEPIsRailTrackReserved",
+        "EEPIsTramTrackReserved"
+    ]
 }
