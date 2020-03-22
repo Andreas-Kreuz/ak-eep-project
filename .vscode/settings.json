@@ -36,5 +36,6 @@
         "EEPIsRoadTrackReserved",
         "EEPIsRailTrackReserved",
         "EEPIsTramTrackReserved"
-    ]
+    ],
+    "editor.minimap.maxColumn": 160
 }
