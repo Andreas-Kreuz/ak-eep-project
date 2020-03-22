@@ -5,7 +5,6 @@
 	"recommendations": [
 		"sumneko.lua",
 		"eg2.tslint",
-		"rokoroku.vscode-theme-darcula",
 		"github.vscode-pull-request-github",
 		"knisterpeter.vscode-github",
 		"angular.ng-template",
