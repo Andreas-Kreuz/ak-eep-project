@@ -9,7 +9,7 @@
 @REM The "lua" command must be in the PATH variable
 @REM Requires Lua to be installed (http://luabinaries.sourceforge.net/download.html)
 
-@REM call .\run-build-server.command
+call .\run-build-server.command
 
 cd ak-lua-bibliothek-fuer-eep\LUA
 call lua ModellInstallation.lua
